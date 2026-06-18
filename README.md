@@ -21,15 +21,22 @@ Aside from Roblox being familiar to me, hosting on Roblox is free, with networki
 
 Out of brutal honesty, many others at my age and experience level try make a game on Unity or Unreal, only to end up with nothing in the end. My chances making something on Roblox were much higher.
 # Credits
+![Kanban](./assets/Kanban.png)
+
 * Thank you to all my amazing testers, in particular [Kalmrelia](https://www.roblox.com/users/1556104309) (very extensive tester) and [alsoaguy](https://www.roblox.com/users/153268450) (occasional technical advice)
 * Thank you to [PhyreP0wer_roblox](https://www.roblox.com/users/113925393) and [made1vvvonder](https://www.roblox.com/users/2469370564) for game design tips
 * Thank you to [NezoGFX](https://x.com/Not_Murayama) for modeling and art, and [sushi](https://www.roblox.com/users/116447797) for animations
 * Thank you to [antlercrimes](https://antlercrimes.straw.page/) for sound design
 # Points to note
 ## Interesting things
+<video src="./assets/Extrapolation.mp4" width="600" controls></video>
+
 * Roblox networking is notoiously bad with movement replication. I have a custom replication implpementation, which makes use of linear interpolation. Roblox has Network Authority now, and rollback netcode is a superior option. However, I'm required to use their Input Action System, and IAS is not extensive enough
 * Basic controller support (shocking, I know)
+* Some basic, really raw parkour mechanics
 ## What this does contain
+<video src="./assets/BasicMoves.mp4" width="600" controls></video>
+
 This is an exact copy of ROC as of 18 June 2026, which contains, all code, all animations, all models, SFX and VFX. You must reupload all assets yourself if you want to use it.
 ## What this doesn't contain
 * A single complete class
